@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="img/logo.PNG" class="logo" alt="" />
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="search" />
+        <button class="search-btn"><img src="img/search.PNG" alt="" /></button>
+      </div>
+      <div class="user-options">
+        <img src="img/video.PNG" class="icon" alt="" />
+        <img src="img/grid.PNG" class="icon" alt="" />
+        <img src="img/bell.PNG" class="icon" alt="" />
+        <div class="user-dp">
+          <img src="img/profile-pic.jpeg" alt="" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+      <a href="http://127.0.0.1:5500/index.html#" class="links active"
+        ><img src="img/home.PNG" alt="" />home</a
+      >
+      <a href="https://www.youtube.com/shorts/wdd5NSVjz40" class="links"
+        ><img src="img/explore.PNG" alt="" />explore</a
+      >
+      <a href="https://www.youtube.com/feed/subscriptions" class="links"
+        ><img src="img/subscription.PNG" alt="" />subscription</a
+      >
+      <hr class="seperator" />
+      <a href="https://www.youtube.com/feed/library" class="links"
+        ><img src="img/library.PNG" alt="" />library</a
+      >
+      <a href="https://www.youtube.com/feed/history" class="links"
+        ><img src="img/history.PNG" alt="" />history</a
+      >
+      <a
+        href="https://studio.youtube.com/channel/UCRZ5BDTq6_akIeyEZW6DRJA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+        class="links"
+        target="_blank"
+        ><img src="img/your-video.PNG" alt="" />your video</a
+      >
+      <a href="https://www.youtube.com/playlist?list=WL" class="links"
+        ><img src="img/watch-later.PNG" alt="" />watch later</a
+      >
+      <a href="https://www.youtube.com/playlist?list=LL" class="links"
+        ><img src="img/liked video.PNG" alt="" />like video</a
+      >
+      <a href="#" class="links"
+        ><img src="img/show more.PNG" alt="" />show more</a
+      >
+      <hr />
+      <div>
+        <a href="https://www.youtube.com/feed/subscriptions" class="sub"
+          ><b>Subcriptions</b></a
+        >
+        <a href="https://www.youtube.com/@GateSmashers" class="links"
+          ><img src="img/sub 1.png" alt="" width="600px"
+        /></a>
+        <a href="https://www.youtube.com/@peachytae5569" class="links"
+          ><img src="img/sub2.png" alt="" width="600px"
+        /></a>
+        <a href="https://www.youtube.com/@NightAppleKookie" class="links"
+          ><img src="img/sub 3.png" alt="" width="600px"
+        /></a>
+        <a href="https://www.youtube.com/@fanfic3173" class="links"
+          ><img src="img/sub4.png" alt="" width="600px"
+        /></a>
+        <a href="https://www.youtube.com/@CuteLifeShorts" class="links"
+          ><img src="img/sub5.png" alt="" width="600px"
+        /></a>
+        <a href="https://www.youtube.com/feed/subscriptions" class="links"
+          ><img src="img/show more.PNG" alt="" />show 27 more</a
+        >
+      </div>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+      <button class="filter-options active">all</button>
+      <button class="filter-options">CSS</button>
+      <button class="filter-options">web development</button>
+      <button class="filter-options">python</button>
+      <button class="filter-options">entertainment</button>
+      <button class="filter-options">marvel</button>
+      <button class="filter-options">javascript</button>
+      <button class="filter-options">artificial intelligence</button>
+      <button class="filter-options">machine learning</button>
+      <button class="filter-options">trending</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container1">
+      <div class="video">
+        <video loop class="thumbnail" id="vid1" poster="/img/jimchim.jpg">
+          <source src="img/1.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jimchim.jpg" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">Lovely chim chim | BTS Jimin</h4>
+            <p class="channel-name">Chim chim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid2"
+          poster="https://i.pinimg.com/736x/fe/b8/c2/feb8c222d3155aa288ea73023be55915.jpg"
+        >
+          <source src="img/6.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/j.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">JIMINIEE:the cutie | BTS Jimin</h4>
+            <p class="channel-name">lachimolala world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid3"
+          poster="https://d.wattpad.com/story_parts/435665394/images/14ce4605fae3fafa59432924002.jpg"
+        >
+          <source src="img/3.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">Jimjam 🐣🐥🌸🍁🍂✨| BTS Jimin</h4>
+            <p class="channel-name">Caribonara world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid4"
+          poster="https://yt3.ggpht.com/a/AGF-l7_NQV7fhDO25gqS0HYVXkcgE7XgGBfj3FSj=s900-c-k-c0xffffffff-no-rj-mo"
+        >
+          <source src="img/10.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/chimie.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">Cutesexylovely❤️🫰🏻🫶🏻🌸🍁🍂✨ | BTS Jimin</h4>
+            <p class="channel-name">Cutesexylovely world</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <iframe
+          class="thumbnail"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2Yr11iYwyjs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="content">
+          <img src="img/chim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">tiny jimine 👉🏻👈🏻🥺❤️| BTS Jimin</h4>
+            <p class="channel-name">tiny chim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <iframe
+          class="thumbnail"
+          src="https://www.youtube.com/embed/pBuZEGYXA6E"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          poster="https://static.billboard.com/files/media/01-BTS-idol-MV-vid-2018-billboard-1548-compressed.jpg"
+        ></iframe>
+
+        <div class="content">
+          <img src="img/m.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">Idol 🐣🐥🌸🍁🍂✨|BTS Jimin</h4>
+            <p class="channel-name">Chim:the shorty world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <iframe
+          class="thumbnail"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jEdfjuG0Fx4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="content">
+          <img src="img/baby.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">filter ❤️🫰🏻🫶🏻🌸🍁🍂✨|BTS Jimin</h4>
+            <p class="channel-name">Chim chim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <iframe
+          class="thumbnail"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Yg-q9lmXECU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="content">
+          <img src="img/chimie.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">spring days 👉🏻👈🏻🥺❤️ | BTS Jimin</h4>
+            <p class="channel-name">Chimjim world</p>
+          </div>
+        </div>
+      </div>
+
+      <div><img src="img/shorts.png" alt="" width="120px" /></div>
+      <div><img src="#" alt="" width="100px" /></div>
+      <div><img src="#" alt="" width="100px" /></div>
+      <div><img src="#" alt="" width="100px" /></div>
+
+      <div class="video-s">
+        <button onclick="playPause1()">
+          <video
+            id="video1"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/2.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+        <button onclick="playPause2()">
+          <video
+            id="video2"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/3.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+      </div>
+
+      <div class="video-s">
+        <button onclick="playPause3()">
+          <video
+            id="video3"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/4.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+
+        <button onclick="playPause4()">
+          <video
+            id="vide4"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/5.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+      </div>
+
+      <div class="video-s">
+        <button onclick="playPause5()">
+          <video
+            id="video5"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/6.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+
+        <button onclick="playPause6()">
+          <video
+            id="video6"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/7.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+      </div>
+
+      <div class="video-s">
+        <button onclick="playPause7()">
+          <video
+            id="video7"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/8.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+
+        <button onclick="playPause8()">
+          <video
+            id="video8"
+            border-radius=" 20px"
+            width="141px"
+            height="300px"
+            autoplay
+          >
+            <source src="img/9.mp4" type="video/mp4" class="thumbnail1" />
+          </video>
+        </button>
+      </div>
+
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid9"
+          poster="https://0.soompi.io/wp-content/uploads/2018/05/18104305/bts-fake-love-2.jpg"
+        >
+          <source src="img/5.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/chim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">fake love ❤️🫰🏻🫶🏻| BTS Jimin</h4>
+            <p class="channel-name">kimjim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid10"
+          poster="https://tse3.mm.bing.net/th?id=OIP.CyCHNIDRSv_IfksB3FzD6AHaEK&pid=Api&P=0&h=180"
+        >
+          <source src="img/12.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/j.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">life goes on 🐣🐥🐣🐥 |BTS Jimin</h4>
+            <p class="channel-name">Chim chim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid11"
+          poster="https://altselection.com/wp-content/uploads/2019/08/promise.jpg"
+        >
+          <source src="img/14.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">promise 👉🏻👈🏻🥺❤️ |BTS Jimin</h4>
+            <p class="channel-name">Chimjim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid12"
+          poster="https://pbs.twimg.com/media/DTguw8-V4AA-VRy.jpg:large"
+        >
+          <source src="img/15.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jiminiee.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">like crazy 🌸🍁🍂✨| BTS Jimin</h4>
+            <p class="channel-name">jimine world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid13"
+          poster="https://wallpaperaccess.com/full/3131492.jpg"
+        >
+          <source src="img/16.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jimjim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">BT21 ❤️🫰🏻🫶🏻🌸🍁🍂✨|BTS Jimin</h4>
+            <p class="channel-name">Chim chim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid14"
+          poster="https://www.allkpop.com/upload/2020/02/content/102238/1581392299-unnamed.jpg"
+        >
+          <source src="img/17.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/j.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">chimmy 🐣🐥🐣🐥|BTS Jimin</h4>
+            <p class="channel-name">jiminiee world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid15"
+          poster="https://pbs.twimg.com/media/DHccMWhU0AAdhur.jpg"
+        >
+          <source src="img/18.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jimjim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">sad jim 👉🏻👈🏻🥺❤️| BTS Jimin</h4>
+            <p class="channel-name">jimjim world</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video
+          loop
+          class="thumbnail"
+          id="vid16"
+          poster="https://tse3.mm.bing.net/th?id=OIP.RvevVBWfzRUCHbsxnepRjQHaEK&pid=Api&P=0&h=180"
+        >
+          <source src="img/10.mp4" />
+        </video>
+        <div class="content">
+          <img src="img/jimjim.gif" class="channel-icon" alt="" />
+          <div class="info">
+            <h4 class="title">funny jim 🌸🍁🍂✨|BTS Jimin</h4>
+            <p class="channel-name">Chim world</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="button1">Show more</button>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
